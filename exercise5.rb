@@ -3,7 +3,7 @@ def temp_convert(f)
 	puts "#{c}"
 end	
 
-print "Please enter a temperaeture in Fahrenheit: "
+print "Please enter a temperature in Fahrenheit: "
 f = gets.chomp.to_i
 
 temp_convert(f)
